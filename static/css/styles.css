@@ -1,0 +1,26 @@
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.menu li {
+    margin-bottom: 5px;
+}
+
+.menu .active > a {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.menu .expanded > ul {
+    display: block;
+}
+
+.menu .collapsed > ul {
+    display: none;
+}

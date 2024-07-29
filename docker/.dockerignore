@@ -1,0 +1,10 @@
+.git
+.gitignore
+.env
+*.pyc
+__pycache__
+*.swp
+media/
+staticfiles/
+.pytest_cache/
+htmlcov/
